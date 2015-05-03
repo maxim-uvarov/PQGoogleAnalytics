@@ -19,3 +19,9 @@ Here is the short video which describes how this workbook works.
 https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel
 
 ![](https://www.evernote.com/l/AAnq3Tra0TNMGrEb8ouN4BqL-ACyIbHeeJgB/image.png)
+
+
+## Todo ##
+
+1. Use built in power query storage for tokens
+2. Implement downloading data day by day for minimising sampling
