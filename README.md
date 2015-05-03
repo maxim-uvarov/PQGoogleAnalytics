@@ -18,4 +18,4 @@ Here is the short video which describes how this workbook works.
 
 https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel
 
-![](https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel)
+![](https://www.evernote.com/l/AAnq3Tra0TNMGrEb8ouN4BqL-ACyIbHeeJgB/image.png)
