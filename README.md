@@ -11,3 +11,11 @@ You can download Xls file from [here](https://github.com/40-02/GoogleAnalyticsVi
 1. Microsoft Office 2010 Professional Plus with Software Assurance, Microsoft Office 2013 Professional Plus, Office 365 ProPlus or Excel 2013 Standalone
 2. [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
 3. Enabled Macros for using Buttons (controls)
+
+## Video demonstration  ##
+
+Here is the short video which describes how this workbook works. 
+
+https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel
+
+![](https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel)
