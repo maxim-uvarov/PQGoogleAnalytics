@@ -8,7 +8,7 @@ You can download Xls file from [here](https://github.com/40-02/GoogleAnalyticsVi
 
 ## Requirements ##
 
-1. Microsoft Office 2010 Professional Plus with Software Assurance, Microsoft Office 2013 Professional Plus, Office 365 ProPlus or Excel 2013 Standalone
+1. MS Excel 2010, 2013 ([from 01.05.2015 Power Query is availible for all versions of MS Excel](http://s.40-02.ru/1zRavuA))
 2. [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
 3. Enabled Macros for using Buttons (controls)
 
