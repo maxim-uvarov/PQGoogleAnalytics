@@ -4,7 +4,7 @@ This program is written on M# language and it is used for retrieving data from G
 
 A lot of code of this application is taken from [article](http://kohera.be/blog/detail/how-to-get-google-analytics-data-in-power-query) on kohera.be. 
 
-You can download Xls file from [here](https://github.com/40-02/GoogleAnalyticsViaPowerQueryForExcel/releases/tag/1.00)
+You can download Xls file from [here](https://github.com/40-02/GoogleAnalyticsViaPowerQueryForExcel/releases)
 
 ## Requirements ##
 
