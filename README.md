@@ -2,15 +2,15 @@
 
 This program is written on M# language and it is used for retrieving data from Google Analytics api directly to Excel using [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379). 
 
-A lot of code of this application is taken from [article](http://kohera.be/blog/detail/how-to-get-google-analytics-data-in-power-query) on kohera.be. 
+A lot of code \[in this application\] is taken from [article](http://kohera.be/blog/detail/how-to-get-google-analytics-data-in-power-query) on kohera.be. 
 
 You can download Xls file from [here](https://github.com/40-02/GoogleAnalyticsViaPowerQueryForExcel/releases)
 
 ## Requirements ##
 
-1. MS Excel 2010, 2013 ([from 01.05.2015 Power Query is availible for all versions of MS Excel](http://s.40-02.ru/1zRavuA))
+1. MS Excel 2010, 2013, 2016 or Power BI
 2. [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
-3. Enabled Macros for using Buttons (controls)
+3. Enabled Macros for using Buttons (controls) - in order to use release version file. 
 
 ## Video demonstration  ##
 
