@@ -11,6 +11,12 @@ You can download Xls and PBIX file from [here](https://github.com/40-02/GoogleAn
 1. MS Excel 2010, 2013, 2016 or Power BI
 2. [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
 
+## Ignore privacy levels ##
+
+To make this file work you need to enable the setting "ignore the privacy levels" on privcy tab in Power BI or Power Query for Excel settings. Here is screenshot:
+
+![](http://content.screencast.com/media/9eac1f74-8980-4a7c-9042-4d189fd08a99_9d700cb2-87df-433c-8403-c813c6a51c87_static_0_0_2016-12-08_11-19-28.png)
+
 ## Video demonstration  ##
 
 Here is the short video which describes how this workbook works. 
