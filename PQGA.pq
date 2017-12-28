@@ -84,7 +84,7 @@ in
     #"Expanded data",
 
   documentation = [
-   Documentation.Name = "PQGA2",
+   Documentation.Name = "PQGA",
    Documentation.Description = "Returns data from Google Analytics via API as a table",
    Documentation.LongDescription = "Returns data from Google Analytics via APIs: Core v3 reporting api and MCF reporting api as a table. 
 There is intervalsVar. It splits requests to api into defined number of days (It's made to minimise sampling).",
