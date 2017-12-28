@@ -1,5 +1,5 @@
 
-
+![](https://content.screencast.com/media/265823bf-1351-4d50-838c-e9f93f639431_9d700cb2-87df-433c-8403-c813c6a51c87_static_0_0_2017-12-29_01-37-39.png)  
 # PQGoogleAnalytics - Google Analytics connector for Power BI and Power Query for Excel
 
 This program is written on M# language and it is used for retrieving data from Google Analytics api directly to Power BI Excel using [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379). 
