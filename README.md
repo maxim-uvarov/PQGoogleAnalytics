@@ -1,4 +1,4 @@
-'''
+
                                                            
            +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+             
 ┌──────────|P|Q|G|o|o|g|l|e|A|n|a|l|y|t|i|c|s|──────┐      
@@ -12,7 +12,7 @@
 └─────────────────────────────────────────────┤ ┌─┐┌─┐┌─┐ │
                                               │ └─┘└─┘└─┘ │
                                               └───────────┘
-'''
+
 
 
 # PQGoogleAnalytics - Google Analytics connector for Power BI and Power Query for Excel
