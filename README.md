@@ -1,19 +1,15 @@
-
-                                                           
-           +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+             
-┌──────────|P|Q|G|o|o|g|l|e|A|n|a|l|y|t|i|c|s|──────┐      
-│          +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+      │      
-│                                                   │      
-│                                             ┌─────┴─────┐
-│              custom Power BI connector      │       ┌─┐ │
-│                                             │       └─┘ │
-│               to Google Analytics API       │    ┌─┐┌─┐ │
-│                                             │    └─┘└─┘ │
-└─────────────────────────────────────────────┤ ┌─┐┌─┐┌─┐ │
-                                              │ └─┘└─┘└─┘ │
-                                              └───────────┘
-
-
+/*                                             
+     +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+     
+┌────|P|Q|G|o|o|g|l|e|A|n|a|l|y|t|i|c|s|────┐
+│    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+    │
+│                                           │
+│         custom Power BI connector         │
+│                                           │
+│          to Google Analytics API          │
+│                                           │
+│                                           │
+└───────────────────────────────────────────┘
+*/
 
 # PQGoogleAnalytics - Google Analytics connector for Power BI and Power Query for Excel
 
