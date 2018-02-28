@@ -1,6 +1,6 @@
 // PQGA
 let
-    Source = (idsVar as text, metricsVar as text, dimensionsVar as text, startDateVar as date, endDateVar as date, filtersVar as nullable text, segmentVar as nullable text, intervalsVar as number) as table => 
+    Source = (idsVar as text, metricsVar as text, dimensionsVar as nullable text, startDateVar as date, endDateVar as date, filtersVar as nullable text, segmentVar as nullable text, intervalsVar as number) as table => 
 
 let
  
