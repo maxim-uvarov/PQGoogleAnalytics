@@ -8,6 +8,24 @@ A lot of code \[in this application\] is taken from [article](http://kohera.be/b
 
 You can download Xls and PBIX file from [here](https://github.com/40-02/GoogleAnalyticsViaPowerQueryForExcel/releases)
 
+## Quick setup guide
+
+0. Open the settings of Power BI, go to "Privacy" tab, choose the setting "Always ignore the Privacy Level settings".
+
+1. Open the link below in your browser, hit "Allow" button and copy the given token.
+
+https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob&approval_prompt=force&client_id=155297956885-088obc06926s8kolll6kdqkd9u842n56
+
+2. Open Power Query by hitting "Edit Queries" button on "Home" tab on the ribbon of Power BI.
+
+3. Paste the token from the step 1 into "authToken" parameter.
+
+4. Go to "getRefreshToken" query and Copy the token from your preview window.
+
+5. Paste the token from the step 5 into "refreshToken" parameter.
+
+6. Your Power BI is ready to get a data from Google Analytics.
+
 ## Requirements ##
 
 1. MS Excel 2010, 2013, 2016 or Power BI
