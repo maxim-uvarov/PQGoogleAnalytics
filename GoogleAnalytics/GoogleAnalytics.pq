@@ -4,6 +4,8 @@
 client_id="299222177909-e41dco25ctoh065p4gmh0lrt9demb20h.apps.googleusercontent.com";
 client_secret="zwUbG2pRDYD1AGI0ljcuDhxJ";
 
+
+
 redirect_uri = "https://preview.powerbi.com/views/oauthredirect.html";
 windowWidth = 1200;
 windowHeight = 1000;
@@ -225,7 +227,7 @@ StartLogin = (resourceUrl, state, display) =>
             client_id = client_id,
             state = state,
             redirect_uri = redirect_uri,
-            prompt="consent",
+            prompt="select_account",
             response_type = "code"])
     in
         [
