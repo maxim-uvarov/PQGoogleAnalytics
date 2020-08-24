@@ -14,7 +14,7 @@ You can download Xls and PBIX file from [here](https://github.com/40-02/GoogleAn
 
 1. Open the link below in your browser, hit "Allow" button and copy the given token.
 
-https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob&approval_prompt=force&client_id=155297956885-088obc06926s8kolll6kdqkd9u842n56
+https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob&approval_prompt=force&client_id=484872653754-dhpt7kvk62pfv1c3e21rincs2l300jeg
 
 2. Open Power Query by hitting "Edit Queries" button on "Home" tab on the ribbon of Power BI.
 
