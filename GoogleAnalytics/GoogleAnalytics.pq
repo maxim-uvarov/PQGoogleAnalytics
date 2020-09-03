@@ -47,13 +47,13 @@ FuncType =type function (
         Documentation.SampleValues = {"3"}
     ]),
 
-optional filtersVar as (type   text meta [
+ filtersVar as (type  nullable text meta [
         Documentation.FieldCaption = "Фильтры Google Analytics:",
         Documentation.SampleValues = {"ga:source=@yandex"}
     ]),
 
 
- optional  segmentVar as (type   text meta [
+   segmentVar as (type nullable  text meta [
         Documentation.FieldCaption = "Сегменты Google Analytics:",
         Documentation.SampleValues = {"gaid::-10"}
 
@@ -96,7 +96,7 @@ optional filtersVar as (type   text meta [
 
 
 
-GetGoogleAnalytics.Stat = (idsVar as text, metricsVar as text, dimensionsVar as  text, startDateVar as text, endDateVar as text, intervalsVar as number, optional filtersVar as text, optional segmentVar as  text )  =>
+GetGoogleAnalytics.Stat = (idsVar as text, metricsVar as text, dimensionsVar as  text, startDateVar as text, endDateVar as text, intervalsVar as number,  filtersVar as nullable text,  segmentVar as nullable text )  =>
      
  let
 
@@ -227,7 +227,7 @@ StartLogin = (resourceUrl, state, display) =>
             client_id = client_id,
             state = state,
             redirect_uri = redirect_uri,
-            prompt="select_account",
+            prompt="consent",
             response_type = "code"])
     in
         [
@@ -255,7 +255,7 @@ TokenMethod = (grantType,tokenField,code) =>
                 redirect_uri = redirect_uri],
         string2=Record.AddField(string1,tokenField,code),
         
-        Response = Web.Contents("https://accounts.google.com/o/oauth2/token", [
+        Response = Web.Contents("https://oauth2.googleapis.com/token", [
             Content = Text.ToBinary(Uri.BuildQueryString(string2)),
             Headers=[#"Content-type" = "application/x-www-form-urlencoded", #"Accept" = "application/json"]]),
         Parts = Json.Document(Response)
