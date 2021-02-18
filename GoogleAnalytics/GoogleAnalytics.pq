@@ -7,9 +7,6 @@
 client_id = "836582736780-k3ba1bg26unvlbgj42vhsigatftflsuv.apps.googleusercontent.com";
 client_secret = "Le61LDNqpafvCFsDxA5FXH28";
 
-
-
-
 redirect_uri = "https://preview.powerbi.com/views/oauthredirect.html";
 windowWidth = 1200;
 windowHeight = 1000;
