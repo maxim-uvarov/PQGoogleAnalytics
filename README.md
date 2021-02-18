@@ -4,6 +4,8 @@
 1) Курс по коннекторам в Excel (4 часа): https://directprorf.ru/excel?utm_source=github
 2) Большой курс по обработке данных в Power Query (8 часов): https://directprorf.ru/pq?utm_source=github
 
+По всем вопросам, связанным с курсами и коннекторами: https://t.me/alexdirect
+
 ### Как воспользоваться коннектором:
 
 1) Скачайте файл MEZ: https://github.com/morinad/PQGoogleAnalytics/raw/master/GoogleAnalytics.mez
