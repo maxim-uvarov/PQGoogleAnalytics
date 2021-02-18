@@ -1,8 +1,12 @@
 ﻿section GetGoogleAnalytics;
 
 
-client_id="299222177909-e41dco25ctoh065p4gmh0lrt9demb20h.apps.googleusercontent.com";
-client_secret="zwUbG2pRDYD1AGI0ljcuDhxJ";
+//client_id="299222177909-e41dco25ctoh065p4gmh0lrt9demb20h.apps.googleusercontent.com";
+//client_secret="zwUbG2pRDYD1AGI0ljcuDhxJ";
+
+client_id = "836582736780-k3ba1bg26unvlbgj42vhsigatftflsuv.apps.googleusercontent.com";
+client_secret = "Le61LDNqpafvCFsDxA5FXH28";
+
 
 
 
