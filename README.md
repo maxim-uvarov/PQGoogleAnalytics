@@ -5,7 +5,7 @@
 2) Курс по коннекторам в Excel (4 часа): https://directprorf.ru/excel?utm_source=github
 3) Большой курс по обработке данных в Power Query (8 часов): https://directprorf.ru/pq?utm_source=github
 
-По всем вопросам, связанным с курсами и коннекторами: https://t.me/alexdirect
+По всем вопросам, связанным с курсами и коннекторами: https://t.me/alexdirect или 89169787746.
 
 ### Как воспользоваться коннектором:
 
