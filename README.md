@@ -25,3 +25,5 @@
 MCF – API для получения данных по цепочкам транзакций и ассоциированные конверсий: https://developers.google.com/analytics/devguides/reporting/mcf/dimsmets/interactions?hl=ru
 
 Справка API: https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-php?hl=ru
+
+Отозвать токены: https://myaccount.google.com/permissions
