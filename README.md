@@ -9,7 +9,7 @@
 
 ### Как воспользоваться коннектором:
 
-1) Скачайте файл MEZ: https://github.com/morinad/PQGoogleAnalytics/raw/master/GoogleAnalytics.mez
+1) Скачайте файл MEZ: https://github.com/morinad/PQGoogleAnalytics/raw/master/GetGoogleAnalyticsBL.mez
 2) Перенесите файл в папку C:\Users\USERNAME\Documents\Power BI Desktop\Custom Connectors, подставив USERNAME своего компьютера.
 3) Откройте Power BI, зайдите в Файл -> Параметры и настройки -> Параметры -> Глобальные -> Безопасность, выберите "Разрешить загрузку любого расширения без проверок и предупреждений".
 4) Перезапустите Power BI. Нажмите на кнопку "Получить данные", в поиске введите "Connector" и выберите коннектор "Google Analytics Connector".
