@@ -1,9 +1,10 @@
 # Кастомный коннектор к Google Analytics для Power BI
 
 ### Наши курсы:
-1) Основы Power BI (3 часа): https://directprorf.ru/basics?utm_source=github
-2) Курс по коннекторам в Excel (4 часа): https://directprorf.ru/excel?utm_source=github
-3) Большой курс по обработке данных в Power Query (8 часов): https://directprorf.ru/pq?utm_source=github
+1) Основы Power BI: https://directprorf.ru/basics?utm_source=github
+2) Из API в Excel и Power BI + коннекторы: https://directprorf.ru/excel?utm_source=github
+3) Продвинутый Power Query: https://directprorf.ru/pro?utm_source=github
+4) Создание коннекторов в Power Query: https://directprorf.ru/connectors?utm_source=github
 
 По всем вопросам, связанным с курсами и коннекторами: https://t.me/alexdirect или 89169787746.
 
