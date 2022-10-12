@@ -2,8 +2,9 @@
 
 
 
-client_id = "299222177909-8mvc09uilhdrick7kqjvf4hsi3tp4duc.apps.googleusercontent.com";
-client_secret = "ELtgNWb9teqd20vCqDdARaok";
+client_id = "341719649792-bepi5bhc9lgip47apa14537jm5hm0k0h.apps.googleusercontent.com";
+client_secret = "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";
+
 
 redirect_uri = "https://preview.powerbi.com/views/oauthredirect.html";
 windowWidth = 1200;
