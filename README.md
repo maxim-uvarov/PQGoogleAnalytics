@@ -1,5 +1,11 @@
 # Кастомный коннектор к Google Analytics для Power BI
 
+### Все коннекторы и поддержка:
+В рамках подписки "ПРО" на Boosty https://boosty.to/morinad вы получите:
+1) Все коннекторы mez для Power BI 
+2) Поддержку и ответы на вопросы
+
+
 ### Курсы для начинающих:
 1) Основы Power BI: https://directprorf.ru/basics?utm_source=github
 2) Из API -> в Excel и Power BI + коннекторы-функции: https://directprorf.ru/excel?utm_source=github
@@ -8,7 +14,6 @@
 3) Продвинутый Power Query: https://directprorf.ru/pro?utm_source=github
 4) Создание коннекторов в Power Query: https://directprorf.ru/connectors?utm_source=github
 
-По всем вопросам, связанным с курсами и коннекторами: https://t.me/alexdirect или 8-916-978-77-46.
 
 ### Как воспользоваться коннектором:
 
