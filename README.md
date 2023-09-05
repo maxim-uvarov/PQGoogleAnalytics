@@ -1,46 +1,38 @@
+# Кастомный коннектор к Google Analytics для Power BI
 
-![](https://content.screencast.com/media/5b47d1de-0000-433b-a902-2b8052720ada_9d700cb2-87df-433c-8403-c813c6a51c87_static_0_0_2017-12-29_01-55-33.png)  
-# PQGoogleAnalytics - Google Analytics connector for Power BI and Power Query for Excel
+### Все коннекторы и поддержка:
+В рамках подписки "ПРО" на Boosty https://boosty.to/morinad вы получите:
+1) Все коннекторы mez для Power BI.
+2) Поддержку и ответы на вопросы.
+3) Полезные наработки, скрипты и файлы.
 
-This program is written on M# language and it is used for retrieving data from Google Analytics api directly to Power BI Excel using [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379). 
+### Наши курсы по Power Query, Power BI и автоматизации:
+1) Основы Power BI (бесплатный курс): https://directprorf.ru/basics?utm_source=github
+2) Power BI для рекламных отчётов: https://directprorf.ru/powerbi?utm_source=github
+3) Из API в Excel и Power BI + коннекторы: https://directprorf.ru/excel?utm_source=github
+4) Коннекторы для Маркетплейсов: https://directprorf.ru/marketplaces?utm_source=github
+5) Продвинутый Power Query: https://directprorf.ru/pro?utm_source=github
+6) Создание коннекторов в Power Query: https://directprorf.ru/connectors?utm_source=github
+7) API ChatGPT для автоматизации бизнеса: https://directprorf.ru/chatgpt?utm_source=github
 
-A lot of code \[in this application\] is taken from [article](http://kohera.be/blog/detail/how-to-get-google-analytics-data-in-power-query) on kohera.be. 
 
-You can download Xls and PBIX file from [here](https://github.com/40-02/GoogleAnalyticsViaPowerQueryForExcel/releases)
+### Как воспользоваться коннектором:
 
-## Quick setup guide
+1) Скачайте файл MEZ: https://github.com/morinad/PQGoogleAnalytics/raw/master/GetGoogleAnalyticsBL.mez
+2) Перенесите файл в папку C:\Users\USERNAME\Documents\Power BI Desktop\Custom Connectors, подставив USERNAME своего компьютера.
+3) Откройте Power BI, зайдите в Файл -> Параметры и настройки -> Параметры -> Глобальные -> Безопасность, выберите "Разрешить загрузку любого расширения без проверок и предупреждений".
+4) Перезапустите Power BI. Нажмите на кнопку "Получить данные", в поиске введите "Connector" и выберите коннектор "Google Analytics Connector".
 
-0. Open the settings of Power BI, go to "Privacy" tab, choose the setting "Always ignore the Privacy Level settings".
 
-1. Open the link below in your browser, hit "Allow" button and copy the given token.
+### Полезные ссылки:
+Пример использования коннектора для построения кастомной модели атрибуции: https://youtu.be/5Gv4dtt8sjI
 
-https://accounts.google.com/o/oauth2/auth?scope=https://www.googleapis.com/auth/analytics.readonly&response_type=code&access_type=offline&redirect_uri=urn:ietf:wg:oauth:2.0:oob&approval_prompt=force&client_id=484872653754-dhpt7kvk62pfv1c3e21rincs2l300jeg
+Параметры и показатели Google Analytics: https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/
 
-2. Open Power Query by hitting "Edit Queries" button on "Home" tab on the ribbon of Power BI.
+Операторы фильтров: https://developers.google.com/analytics/devguides/reporting/core/v3/reference
 
-3. Paste the token from the step 1 into "authToken" parameter.
+MCF – API для получения данных по цепочкам транзакций и ассоциированные конверсий: https://developers.google.com/analytics/devguides/reporting/mcf/dimsmets/interactions?hl=ru
 
-4. Go to "getRefreshToken" query and Copy the token from your preview window.
+Справка API: https://developers.google.com/analytics/devguides/reporting/core/v3/quickstart/service-php?hl=ru
 
-5. Paste the token from the step 5 into "refreshToken" parameter.
-
-6. Your Power BI is ready to get a data from Google Analytics.
-
-## Requirements ##
-
-1. MS Excel 2010, 2013, 2016 or Power BI
-2. [Power Query Addon](https://www.microsoft.com/en-us/download/details.aspx?id=39379)
-
-## Ignore privacy levels ##
-
-To make this file work you need to enable the setting "ignore privacy levels" on privacy tab in Power BI or Power Query for Excel settings. Here is the screenshot:
-
-![](http://content.screencast.com/media/9eac1f74-8980-4a7c-9042-4d189fd08a99_9d700cb2-87df-433c-8403-c813c6a51c87_static_0_0_2016-12-08_11-19-28.png)
-
-## Video demonstration  ##
-
-Here is the short video which describes how this workbook works. 
-
-https://vimeo.com/maximuvarov/googleanalyticsviapowerqueryformsexcel
-
-![](https://www.evernote.com/l/AAnq3Tra0TNMGrEb8ouN4BqL-ACyIbHeeJgB/image.png)
+Отозвать токены: https://myaccount.google.com/permissions

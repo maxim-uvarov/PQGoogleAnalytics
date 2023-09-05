@@ -1,0 +1,9 @@
+(list)=>
+let
+tableFromList= Table.FromList(list, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+expand = Table.ExpandRecordColumn(tableFromList, "Column1", {"interactionType", "nodeValue"}, {"interactionType", "nodeValue"}),
+select = Table.SelectRows(expand, each ([nodeValue] <> "(unavailable)")),
+index = Table.AddIndexColumn(select, "Касание", 1),
+delete = Table.RemoveColumns(index,{"interactionType"}),
+rename =   Table.RenameColumns(delete,{{"nodeValue", "Источник"}})
+in rename

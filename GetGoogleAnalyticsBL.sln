@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4DF76451-A46A-4C0B-BE03-459FAAFA07E6}") = "GetGoogleAnalyticsBL", "GetGoogleAnalyticsBL\GetGoogleAnalyticsBL.mproj", "{7AD3F01D-3A1D-4E0C-8597-4294AB09478B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AD3F01D-3A1D-4E0C-8597-4294AB09478B}.Debug|x86.ActiveCfg = Debug|x86
+		{7AD3F01D-3A1D-4E0C-8597-4294AB09478B}.Debug|x86.Build.0 = Debug|x86
+		{7AD3F01D-3A1D-4E0C-8597-4294AB09478B}.Release|x86.ActiveCfg = Release|x86
+		{7AD3F01D-3A1D-4E0C-8597-4294AB09478B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943DAF6F-426D-4C40-AF03-B8480583372B}
+	EndGlobalSection
+EndGlobal
